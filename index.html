@@ -1,0 +1,73 @@
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Max's cycling routes</title>
+
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+  <!-- Roboto font -->
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,700'>
+  <!-- Material Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Custom CSS for app -->
+  <!-- <link rel="stylesheet" href="app.css" /> -->
+</head>
+
+<body ng-app="CycleRoutes" ng-cloak ng-controller="mainCtrl as vm">
+
+  <md-toolbar>
+    <h1 class="md-display-3">Cycle routes</h1>
+  </md-toolbar>
+
+  <div layout="column" flex>
+    <ul>
+      <li ng-repeat="route in vm.routes">
+        name: {{route.name}} <br>
+        route id: {{route.id}} <br>
+        description: {{route.description}} <br>
+        distance: {{route.distance}} <br>
+        elevation gain: {{route.elevation_gain}} <br>
+        map id: {{route.map.id}} <br>
+        estimated moving time: {{route.estimated_moving_time}}
+      </li>
+    </ul>
+    <div class="">
+      {{vm.posts}}
+    </div>
+  </div>
+
+
+
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-resource.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+
+  <!-- UI router helloworld -->
+  <!-- <script src="helloworld/helloworld.js"></script> -->
+
+  <!-- Angular Material Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+  <!-- Application bootstrap  -->
+  <!-- <script src="app.module.js"></script> -->
+  <script src="app.js"></script>
+
+  <!-- make sure to load module definitions before the components -->
+  <!-- Core services -->
+
+  <!-- <script src="core/routes.service.js"></script> -->
+
+  <!-- Component: userList -->
+  <!-- <script src="user-list/user-list.module.js"></script> -->
+  <!-- <script src="user-list/user-list.component.js"></script>
+  <script src="user-detail/user-detail.component.js"></script> -->
+
+</body>
+
+</html>
