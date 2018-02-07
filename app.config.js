@@ -18,8 +18,7 @@ angular
     var allRoutesState = {
       name: 'routes',
       url: '/routes',
-      // template: '<routes-list></routes-list>'
-      template: 'TBA - routes to come'
+      template: '<all-routes></all-routes>'
     };
 
     var routeDetailState = {
