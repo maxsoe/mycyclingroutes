@@ -1,4 +1,4 @@
-<ul>
+<!-- <ul>
   <li ng-repeat="route in allRoutesCtrl.routes">
     name: {{route.name}} <br>
     description: {{route.description}} <br>
@@ -7,6 +7,6 @@
     map id: {{route.map.id}} <br>
     estimated moving time: {{route.estimated_moving_time}}
   </li>
-</ul>
+</ul> -->
 
-<p>You have reached the HTML template</p>
+<pre>{{allRoutesCtrl.routes | json}}</pre>
