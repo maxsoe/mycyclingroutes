@@ -12,7 +12,8 @@ angular
 
     var homeState = {
       name: 'home',
-      url: '/'
+      url: '/',
+      template: '<all-routes></all-routes>'
     };
 
     var allRoutesState = {
