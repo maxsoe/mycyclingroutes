@@ -1,0 +1,7 @@
+md-card {
+  min-width: 200px;
+}
+
+.md-card-image {
+  object-fit: contain;
+}

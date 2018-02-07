@@ -4,6 +4,7 @@ angular
   .component('allRoutes', {
     // template: 'test template'
     templateUrl: 'all-routes/all-routes.template.html',
+    css: 'all-routes/all-routes.css',
     controller: AllRoutesController,
     controllerAs: 'allRoutesCtrl'
   });
