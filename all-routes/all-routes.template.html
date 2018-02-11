@@ -31,6 +31,22 @@
     <img class="md-card-image" src="img/map/570x190.png" alt="image caption">
     <md-card-content>
       <h2>{{route.name}}</h2>
+      <div class="stats" layout="row" layout-align="space-between none">
+        <div class="distance">
+          <span class="number">{{route.distance | numberConversion}}</span>
+          <span class="units"></span>
+          <div class="label">
+            Distance
+          </div>
+        </div>
+        <div class="elevation">
+          <span class="number">{{route.elevation_gain | numberConversion}}</span>
+          <span class="units"></span>
+          <div class="label">
+            Elevation gain
+          </div>
+        </div>
+      </div>
       <p>{{route.description}}</p>
     </md-card-content>
     <md-divider></md-divider>
