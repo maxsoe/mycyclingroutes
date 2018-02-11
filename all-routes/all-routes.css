@@ -1,7 +1,17 @@
 md-card {
-  min-width: 200px;
+  min-width: 288px;
 }
 
 .md-card-image {
   object-fit: contain;
+}
+
+md-card-header-text {
+  width: calc(100% - 144px);
+}
+
+.md-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
