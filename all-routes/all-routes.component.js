@@ -2,7 +2,8 @@
 angular
   .module('allRoutes', [
     'allRoutesSvc',
-    'numberConversionFtl'
+    'numberConversionFtl',
+    'numberUnitsFtl'
   ])
   .component('allRoutes', {
     // template: 'test template'

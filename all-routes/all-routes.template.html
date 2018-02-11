@@ -34,14 +34,14 @@
       <div class="stats" layout="row" layout-align="space-between none">
         <div class="distance">
           <span class="number">{{route.distance | numberConversion}}</span>
-          <span class="units"></span>
+          <span class="units">{{route.distance | numberUnits}}</span>
           <div class="label">
             Distance
           </div>
         </div>
         <div class="elevation">
           <span class="number">{{route.elevation_gain | numberConversion}}</span>
-          <span class="units"></span>
+          <span class="units">{{route.elevation_gain | numberUnits}}</span>
           <div class="label">
             Elevation gain
           </div>
