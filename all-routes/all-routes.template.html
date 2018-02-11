@@ -17,7 +17,7 @@
       </md-card-avatar>
       <md-card-header-text>
         <div class="md-title" flex>{{route.athlete.firstname}} {{route.athlete.lastname}}</div>
-        <div class="md-subhead">{{route.distance | numberConversion}}</div>
+        <div class="md-subhead">{{route.created_at}}</div>
       </md-card-header-text>
       <md-card-icon-actions layout-gt-xs="row" flex="none" layout-align-gt-xs="center">
         <md-button class="md-icon-button" aria-label="Favorite">
@@ -33,21 +33,21 @@
       <h2>{{route.name}}</h2>
       <div class="stats" layout="row" layout-align="space-between none">
         <div class="distance">
-          <span class="number">{{route.distance | numberConversion}}</span>
-          <span class="units">{{route.distance | numberUnits}}</span>
-          <div class="label">
+          <span class="number md-headline">{{route.distance | numberConversion}}</span>
+          <span class="units secondary-text">{{route.distance | numberUnits}}</span>
+          <div class="label hint-text">
             Distance
           </div>
         </div>
         <div class="elevation">
-          <span class="number">{{route.elevation_gain | numberConversion}}</span>
-          <span class="units">{{route.elevation_gain | numberUnits}}</span>
-          <div class="label">
+          <span class="number md-headline">{{route.elevation_gain | numberConversion}}</span>
+          <span class="units secondary-text">{{route.elevation_gain | numberUnits}}</span>
+          <div class="label hint-text">
             Elevation gain
           </div>
         </div>
       </div>
-      <p>{{route.description}}</p>
+      <p class="md-body-2">{{route.description}}</p>
     </md-card-content>
     <md-divider></md-divider>
     <md-card-actions layout="row">
@@ -56,4 +56,4 @@
   </md-card>
 </div>
 
-<pre>{{allRoutesCtrl.routes | json}}</pre>
+<!-- <pre>{{allRoutesCtrl.routes | json}}</pre> -->

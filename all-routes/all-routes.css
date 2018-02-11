@@ -15,3 +15,11 @@ md-card-header-text {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.secondary-text {
+  color: rgba(0,0,0,0.54);
+}
+
+.hint-text {
+  color: rgba(0,0,0,0.38);
+}
