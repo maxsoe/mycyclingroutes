@@ -16,7 +16,7 @@
         <md-icon class="md-avatar-icon" md-svg-icon="img/icons/android.svg"></md-icon>
       </md-card-avatar>
       <md-card-header-text>
-        <div class="md-title" flex>{{route.name}}</div>
+        <div class="md-title" flex>{{route.athlete.firstname}} {{route.athlete.lastname}}</div>
         <div class="md-subhead">{{route.distance | numberConversion}}</div>
       </md-card-header-text>
       <md-card-icon-actions layout-gt-xs="row" flex="none" layout-align-gt-xs="center">
@@ -30,15 +30,13 @@
     </md-card-header>
     <img class="md-card-image" src="img/map/570x190.png" alt="image caption">
     <md-card-content>
-      <h2>Card headline</h2>
+      <h2>{{route.name}}</h2>
       <p>{{route.description}}</p>
     </md-card-content>
-    <md-card-footer>
-      <md-card-actions layout="row">
-        <!-- <md-button class="md-primary" ui-sref="phoneDetail({phoneId: phoneListCtrl.phones[2].id})">Full details</md-button> -->
-        <md-button class="md-primary">Action 2</md-button>
-      </md-card-actions>
-    </md-card-footer>
+    <md-divider></md-divider>
+    <md-card-actions layout="row">
+      <md-button class="md-primary">Action 2</md-button>
+    </md-card-actions>
   </md-card>
 </div>
 
