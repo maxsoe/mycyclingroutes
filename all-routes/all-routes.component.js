@@ -1,6 +1,9 @@
 // Register `allRoutes` component, along with its associated controller and template
 angular
-  .module('allRoutes', ['allRoutesSvc'])
+  .module('allRoutes', [
+    'allRoutesSvc',
+    'numberConversionFtl'
+  ])
   .component('allRoutes', {
     // template: 'test template'
     templateUrl: 'all-routes/all-routes.template.html',
