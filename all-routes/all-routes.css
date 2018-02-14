@@ -1,5 +1,7 @@
 md-card {
   min-width: 288px;
+  /* max-width: 288px; */
+  max-width: calc(600px - 1.6rem);
 }
 
 .md-card-image {
@@ -10,11 +12,11 @@ md-card-header-text {
   width: calc(100% - 144px);
 }
 
-.md-title {
+/* .md-title {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
+} */
 
 .secondary-text {
   color: rgba(0,0,0,0.54);
@@ -22,4 +24,20 @@ md-card-header-text {
 
 .hint-text {
   color: rgba(0,0,0,0.38);
+}
+
+@media (min-width: 600px) {
+  md-card {
+    min-width: 276px;
+    max-width: 276px;
+  }
+
+  md-card-content {
+    height: 252px;
+    overflow: hidden;
+  }
+
+  md-card-content h2 {
+    overflow: visible;
+  }
 }

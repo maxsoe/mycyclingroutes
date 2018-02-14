@@ -9,8 +9,10 @@
   </li>
 </ul> -->
 
-<div layout-margin>
-  <md-card ng-repeat="route in allRoutesCtrl.routes">
+<!-- TODO: larger breakpoints -->
+
+<div layout-margin layout-gt-xs="row" layout-align-gt-xs="center start" layout-wrap>
+  <md-card ng-repeat="route in allRoutesCtrl.routes" layout-gt-xs="column">
     <md-card-header>
       <md-card-avatar>
         <md-icon class="md-avatar-icon" md-svg-icon="img/icons/android.svg"></md-icon>
@@ -30,7 +32,7 @@
     </md-card-header>
     <img class="md-card-image" src="img/map/570x190.png" alt="image caption">
     <md-card-content>
-      <h2>{{route.name}}</h2>
+      <h2 class="md-title"><a href="">{{route.name}}</a></h2>
       <div class="stats" layout="row" layout-align="space-between none">
         <div class="distance">
           <span class="number md-headline">{{route.distance | numberConversion}}</span>
