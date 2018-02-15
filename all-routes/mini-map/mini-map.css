@@ -1,0 +1,12 @@
+md-card #mymap {
+  height: 49.88vw;
+  width: 100%;
+  background: #EEE;
+}
+
+@media (min-width: 600px) {
+  md-card #mymap {
+    height: 214px;
+    width: 380px;
+  }
+}

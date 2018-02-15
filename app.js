@@ -4,5 +4,6 @@ var myApp = angular.module('cycleRouteApp', [
   'angularCSS',
   'ui.router',
   'ngMaterial',
-  'allRoutes'
+  'allRoutes',
+  'miniMap'
 ]);

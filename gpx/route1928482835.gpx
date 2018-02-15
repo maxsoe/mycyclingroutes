@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gpx version="1.1" creator="GPS Visualizer http://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<trk>
+  <name>Bigfoot - Keston Church Loop</name>
+  <trkseg>
+    <trkpt lat="51.377834634" lon="0.017616749">
+      <ele>73.506</ele>
+    </trkpt>
+    <trkpt lat="51.377" lon="0.01734">
+      <ele>72.8</ele>
+    </trkpt>
+    <trkpt lat="51.37667" lon="0.01767">
+      <ele>73.376</ele>
+    </trkpt>
+    <trkpt lat="51.37646" lon="0.01733">
+      <ele>74.744</ele>
+    </trkpt>
+    <trkpt lat="51.3751" lon="0.01631">
+      <ele>76.28</ele>
+    </trkpt>
+    <trkpt lat="51.37534" lon="0.01206">
+      <ele>75.006</ele>
+    </trkpt>
+    <trkpt lat="51.37577" lon="0.01064">
+      <ele>68.988</ele>
+    </trkpt>
+    <trkpt lat="51.37601" lon="0.00755">
+      <ele>61.18</ele>
+    </trkpt>
+    <trkpt lat="51.37553" lon="0.00575">
+      <ele>60.0</ele>
+    </trkpt>
+    <trkpt lat="51.37483" lon="0.00674">
+      <ele>61.652</ele>
+    </trkpt>
+    <trkpt lat="51.37304" lon="0.00283">
+      <ele>62.056</ele>
+    </trkpt>
+    <trkpt lat="51.37031" lon="0.00386">
+      <ele>68.012</ele>
+    </trkpt>
+    <trkpt lat="51.36771" lon="0.00592">
+      <ele>68.236</ele>
+    </trkpt>
+    <trkpt lat="51.36554" lon="0.01176">
+      <ele>71.112</ele>
+    </trkpt>
+    <trkpt lat="51.36428" lon="0.01549">
+      <ele>75.14</ele>
+    </trkpt>
+    <trkpt lat="51.36331" lon="0.01768">
+      <ele>76.732</ele>
+    </trkpt>
+    <trkpt lat="51.36074" lon="0.02094">
+      <ele>75.952</ele>
+    </trkpt>
+    <trkpt lat="51.35935" lon="0.02244">
+      <ele>78.857</ele>
+    </trkpt>
+    <trkpt lat="51.35777" lon="0.02244">
+      <ele>82.028</ele>
+    </trkpt>
+    <trkpt lat="51.3553" lon="0.02665">
+      <ele>101.945</ele>
+    </trkpt>
+    <trkpt lat="51.35045" lon="0.02712">
+      <ele>113.112</ele>
+    </trkpt>
+    <trkpt lat="51.34962" lon="0.02794">
+      <ele>114.111</ele>
+    </trkpt>
+    <trkpt lat="51.34932" lon="0.0291">
+      <ele>110.208</ele>
+    </trkpt>
+    <trkpt lat="51.34895" lon="0.03124">
+      <ele>112.582</ele>
+    </trkpt>
+    <trkpt lat="51.34884" lon="0.0348">
+      <ele>134.791</ele>
+    </trkpt>
+    <trkpt lat="51.34832" lon="0.03624">
+      <ele>140.32</ele>
+    </trkpt>
+    <trkpt lat="51.35072" lon="0.03502">
+      <ele>143.877</ele>
+    </trkpt>
+    <trkpt lat="51.35117" lon="0.03283">
+      <ele>145.672</ele>
+    </trkpt>
+    <trkpt lat="51.35176" lon="0.03129">
+      <ele>150.632</ele>
+    </trkpt>
+    <trkpt lat="51.35225" lon="0.03133">
+      <ele>154.355</ele>
+    </trkpt>
+    <trkpt lat="51.35428" lon="0.03292">
+      <ele>154.895</ele>
+    </trkpt>
+    <trkpt lat="51.35814" lon="0.03167">
+      <ele>137.008</ele>
+    </trkpt>
+    <trkpt lat="51.3598" lon="0.03038">
+      <ele>127.545</ele>
+    </trkpt>
+    <trkpt lat="51.36224" lon="0.02734">
+      <ele>121.0</ele>
+    </trkpt>
+    <trkpt lat="51.36291" lon="0.02699">
+      <ele>121.914</ele>
+    </trkpt>
+    <trkpt lat="51.36409" lon="0.02433">
+      <ele>121.162</ele>
+    </trkpt>
+    <trkpt lat="51.36506" lon="0.02296">
+      <ele>114.216</ele>
+    </trkpt>
+    <trkpt lat="51.3657" lon="0.02172">
+      <ele>112.0</ele>
+    </trkpt>
+    <trkpt lat="51.36736" lon="0.02034">
+      <ele>105.232</ele>
+    </trkpt>
+    <trkpt lat="51.37111" lon="0.01768">
+      <ele>94.648</ele>
+    </trkpt>
+    <trkpt lat="51.37253" lon="0.01626">
+      <ele>86.0</ele>
+    </trkpt>
+    <trkpt lat="51.37443" lon="0.01601">
+      <ele>81.052</ele>
+    </trkpt>
+    <trkpt lat="51.37643" lon="0.01742">
+      <ele>74.852</ele>
+    </trkpt>
+    <trkpt lat="51.37666" lon="0.01775">
+      <ele>73.124</ele>
+    </trkpt>
+    <trkpt lat="51.37698" lon="0.01742">
+      <ele>72.872</ele>
+    </trkpt>
+    <trkpt lat="51.37774" lon="0.01768">
+      <ele>73.424</ele>
+    </trkpt>
+  </trkseg>
+</trk>
+</gpx>
