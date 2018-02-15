@@ -4,6 +4,23 @@ md-card {
   max-width: calc(600px - 1.6rem);
 }
 
+md-card md-card-header {
+  padding-bottom: 0;
+}
+
+md-card md-card-content {
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+md-card-content h2.md-title {
+  font-family: roboto-bold;
+}
+
+md-card-avatar {
+  margin-right: 16px;
+}
+
 .md-card-image {
   object-fit: contain;
 }
@@ -12,6 +29,9 @@ md-card-header-text {
   width: calc(100% - 144px);
 }
 
+.stats .units {
+  font-size: 16px;
+}
 /* .md-title {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -26,10 +46,22 @@ md-card-header-text {
   color: rgba(0,0,0,0.38);
 }
 
+.distance,
+.elevation,
+.difficulty {
+  margin-top: 16px;
+  margin-right: 16px;
+}
+
+.difficulty:last-child {
+  margin-right: 0;
+}
+
 @media (min-width: 600px) {
   md-card {
-    min-width: 276px;
-    max-width: 276px;
+    /* min-width: 276px;
+    max-width: 276px; */
+    width: 380px;
   }
 
   md-card-content {
@@ -39,5 +71,12 @@ md-card-header-text {
 
   md-card-content h2 {
     overflow: visible;
+  }
+
+  .distance,
+  .elevation,
+  .difficulty {
+    margin-top: 16px;
+    margin-right: 16px;
   }
 }
