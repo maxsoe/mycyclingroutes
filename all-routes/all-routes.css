@@ -29,6 +29,11 @@ md-card {
       width: calc(100% - 144px);
     }
 
+    md-card md-card-header md-card-icon-actions button.md-button.md-icon-button:last-child {
+      margin-right: 0;
+      padding-right: 0;
+    }
+
 .stats .units {
   font-size: 16px;
 }
